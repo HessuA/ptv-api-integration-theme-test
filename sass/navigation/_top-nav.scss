@@ -1,0 +1,25 @@
+.top-nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem var(--padding-container-horizontal);
+}
+
+.site-languages {
+  ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    text-transform: uppercase;
+
+    li a {
+      text-decoration: none;
+    }
+  }
+
+  li.current-lang {
+    border-bottom: 2px solid var(--color-main);
+  }
+}
