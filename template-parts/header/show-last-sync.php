@@ -6,7 +6,7 @@
  * @Author: Heikki Anttonen
  * @Date:   2023-12-05 18:55:09
  * @Last Modified by:   Heikki Anttonen
- * @Last Modified time: 2023-12-05 19:03:55
+ * @Last Modified time: 2023-12-07 09:55:52
  * 
  * @package ptv-api-test
  */
@@ -22,5 +22,5 @@ if ( empty( $last_sync ) ) {
 ?>
 
 <div class="show-last-sync">
-  <?php echo esc_html( sprintf( 'Last sync: %s', $last_sync ) ); ?>
+  <p><?php echo esc_html( sprintf( 'Last sync: %s', $last_sync ) ); ?></p>
 </div>
